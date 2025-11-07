@@ -1,0 +1,29 @@
+name: vlm-stroop
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - cudatoolkit=12.1
+  - pytorch=2.3.*
+  - torchvision
+  - torchaudio
+  - numpy
+  - pandas
+  - pillow
+  - tqdm
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - pip:
+      - git+https://github.com/openai/CLIP.git
+      - transformers>=4.40
+      - accelerate
+      - huggingface-hub
+      - sentencepiece
+      - bitsandbytes
+      - safetensors
+      - peft
