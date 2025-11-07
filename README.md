@@ -132,28 +132,7 @@ while **Kosmos-2** and **BLIP-2** are strongly word-biased.
 
 ---
 
-### 3️⃣ Representation Analysis
-
-We compute **Representational Dissimilarity Matrices (RDMs)**  
-to isolate modality-specific contributions:
-
-$$
-\Delta_{\text{Word}} = \text{RDM(Word + Ink)} - \text{RDM(Ink-only)}
-$$
-
-$$
-\Delta_{\text{Ink}} = \text{RDM(Word + Ink)} - \text{RDM(Word-only)}
-$$
-
-Adding the **word** reshapes the embedding space more sharply than adding the **color**.
-
-<p align="center">
-  <img src="figures/fig4_rdm_umap.png" width="600">
-</p>
-
----
-
-### 4️⃣ Latent Interventions
+### 3️⃣ Latent Interventions
 
 ---
 
@@ -180,6 +159,14 @@ even without explicit prompt guidance — confirming that text semantics dominat
 
 To visualize how word and color information are organized in the embedding space,  
 we computed **Representational Dissimilarity Matrices (RDMs)** and projected embeddings using **UMAP**.
+
+$$
+\Delta_{\text{Word}} = \text{RDM(Word + Ink)} - \text{RDM(Ink-only)}
+$$
+
+$$
+\Delta_{\text{Ink}} = \text{RDM(Word + Ink)} - \text{RDM(Word-only)}
+$$
 
 - **RDMs** quantify pairwise dissimilarities between embeddings to reveal modality-specific structure.  
   Adding the **word** on top of color causes sharper, localized representational shifts,  
