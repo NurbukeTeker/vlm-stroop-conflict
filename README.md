@@ -71,6 +71,9 @@ Each file follows the format:
 
 <WORD>_<INK>.png
 
+<p align="center">
+  <img src="figures/fig0_dataset_construction.png" width="600">
+</p>
 
 e.g., BLUE_RED.png
 
@@ -99,6 +102,25 @@ $$
 <p align="center">
   <img src="figures/fig2_behavioral_results.png" width="600">
 </p>
+
+---
+
+###  Visual Manipulations
+
+To test the robustness of the observed **word bias**, we varied key visual attributes of the Stroop stimuli:
+- **Font size** (48–108 pt)
+- **Font weight** (light, normal, bold, narrow)
+- **Contrast** (high, medium, low, same)
+- **Pseudowords** (non-lexical strings like *GRIV*, *BLIR*)
+
+Across all manipulations, CLIP and SigLIP-2 continued to favor the **written word** whenever it was legible.  
+The bias only weakened when the text became unreadable (e.g., low contrast or overflow) or lost semantic meaning (pseudowords).  
+This shows that VLMs “read when they can” — textual salience overrides color cues until language information is visually suppressed.
+
+<p align="center">
+  <img src="figures/fig4_clip_visual_manipulations.png" width="600">
+</p>
+
 
 #### Generative Models (LLaVA, BLIP-2, Kosmos-2, GIT, Qwen-VL)
 
@@ -133,6 +155,51 @@ Adding the **word** reshapes the embedding space more sharply than adding the **
 
 ### 4️⃣ Latent Interventions
 
+---
+
+#### Embedding Alignment Test
+
+To probe which cue dominates at the **embedding level**,  
+we compared each Stroop image embedding directly to the text embeddings of its **written word** and its **ink color**.  
+For example, the image of *“RED” written in blue* was tested against the text embeddings of *“red”* and *“blue”*.
+
+Across 90 incongruent cases:
+- **CLIP** aligned with the **written word** in 96.7% of images  
+- and with the **ink color** in only 3.3%.
+
+This indicates that image embeddings are positioned **closer to word embeddings** than to ink-color embeddings —  
+even without explicit prompt guidance — confirming that text semantics dominate the visual representation.
+
+<p align="center">
+  <img src="figures/fig5_embedding_based_diagram.png" width="600">
+</p>
+
+---
+
+#### RDM & UMAP Analyses
+
+To visualize how word and color information are organized in the embedding space,  
+we computed **Representational Dissimilarity Matrices (RDMs)** and projected embeddings using **UMAP**.
+
+- **RDMs** quantify pairwise dissimilarities between embeddings to reveal modality-specific structure.  
+  Adding the **word** on top of color causes sharper, localized representational shifts,  
+  whereas adding color to an existing word produces weaker and more diffuse changes.
+
+<p align="center">
+  <img src="figures/fig6_rdm_results.png" width="650">
+</p>
+
+- **UMAP** projections show that image embeddings cluster primarily by **the written word**,  
+  not by their ink color — mirroring the behavioral word bias observed earlier.
+
+Together, these analyses demonstrate that the **word cue dominates representational geometry**,  
+and the same hierarchy is visually apparent in the embedding manifold.
+
+<p align="center">
+  <img src="figures/fig7_umap_embedding_view.png" width="650">
+</p>
+
+
 Subpopulation-based steering modifies embeddings as:
 
 $$
@@ -146,7 +213,7 @@ $$
 | **Combined** | 100.0 | +0.1172 |
 
 <p align="center">
-  <img src="figures/fig6_intervention_heatmaps.png" width="600">
+  <img src="figures/fig8_intervention_heatmaps.png" width="600">
 </p>
 
 ---
