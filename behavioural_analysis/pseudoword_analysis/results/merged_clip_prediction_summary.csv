@@ -1,0 +1,11 @@
+color,congruent_correct,color_correct,text_biased,off_target,total
+black,5,43,0,2,50
+blue,4,40,0,5,50
+brown,5,34,7,4,50
+gray,5,33,10,2,50
+green,5,35,0,10,50
+orange,5,43,1,1,50
+pink,5,39,3,3,50
+purple,5,43,0,2,50
+red,5,41,0,4,50
+yellow,5,38,7,0,50
