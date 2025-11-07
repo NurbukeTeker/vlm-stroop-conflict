@@ -1,0 +1,5 @@
+Style,n_images,text_acc_%,color_acc_%,conclusion
+light,100,89.0,21.0,🧠 Focus: text (Stroop effect)
+normal,100,88.0,22.0,🧠 Focus: text (Stroop effect)
+bold,100,89.0,21.0,🧠 Focus: text (Stroop effect)
+narrow,100,97.0,13.0,🧠 Focus: text (Stroop effect)
