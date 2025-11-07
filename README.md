@@ -71,15 +71,16 @@ Each file follows the format:
 
 <WORD>_<INK>.png
 
+
 <p align="center">
-  <img src="figures/fig0_dataset_construction.png" width="600">
+  <img src="figures/fig0_dataset_construction.png" width="600"  style="background-color:white; padding:8px; border-radius:8px;">
 </p>
 
 e.g., BLUE_RED.png
 
 
 <p align="center">
-  <img src="figures/fig1_stroop_scheme.png" width="600">
+  <img src="figures/fig1_stroop_scheme.png" width="600" style="background-color:white; padding:10px; border-radius:10px;>
 </p>
 
 ---
