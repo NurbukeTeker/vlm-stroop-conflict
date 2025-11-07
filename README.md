@@ -80,7 +80,7 @@ e.g., BLUE_RED.png
 
 
 <p align="center">
-  <img src="figures/fig1_stroop_scheme.png" width="600" style="background-color:white; padding:10px; border-radius:10px;>
+  <img src="figures/fig1_stroop_scheme.png" width="600" style="background-color:white; padding:10px; border-radius:10px;">
 </p>
 
 ---
