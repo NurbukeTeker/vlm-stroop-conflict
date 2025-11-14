@@ -1,0 +1,101 @@
+file,word,ink,condition,output,label
+black_as_black.png,black,black.png,incongruent,the black is the color of the text,black,word
+black_as_blue.png,black,blue.png,incongruent,the logo is a bold and bold combination of blue.,blue,neither
+black_as_brown.png,black,brown.png,incongruent,the logo is a black colour that is not in color.,black,word
+black_as_gray.png,black,gray.png,incongruent,the best black in the world,black,word
+black_as_green.png,black,green.png,incongruent,the logo is a black colour that is not in green.,"green,black",word
+black_as_orange.png,black,orange.png,incongruent,the logo is a bold and bold combination of orange and yellow.,"yellow,orange",neither
+black_as_pink.png,black,pink.png,incongruent,the best fonts for the whole family,,neither
+black_as_purple.png,black,purple.png,incongruent,the logo is a bold and bold colour.,,neither
+black_as_red.png,black,red.png,incongruent,the text is black... and the color is a bit more red than the other.,"red,black",word
+black_as_yellow.png,black,yellow.png,incongruent,the logo for the new store,,neither
+blue_as_black.png,blue,black.png,incongruent,the blue in the sky,blue,word
+blue_as_blue.png,blue,blue.png,incongruent,blue text on a white background,blue,word
+blue_as_brown.png,blue,brown.png,incongruent,the logo on a white background,,neither
+blue_as_gray.png,blue,gray.png,incongruent,the logo is a popular brand.,,neither
+blue_as_green.png,blue,green.png,incongruent,the logo is a bit different from the font.,,neither
+blue_as_orange.png,blue,orange.png,incongruent,the font is orange and blue.,"blue,orange",word
+blue_as_pink.png,blue,pink.png,incongruent,the logo is a font that can be used for different purposes.,,neither
+blue_as_purple.png,blue,purple.png,incongruent,the logo is purple and blue.,"blue,purple",word
+blue_as_red.png,blue,red.png,incongruent,the text is red and blue.,"red,blue",word
+blue_as_yellow.png,blue,yellow.png,incongruent,the yellow text is a great contrast to the yellow.,yellow,neither
+brown_as_black.png,brown,black.png,incongruent,the logo is a brand new brand.,,neither
+brown_as_blue.png,brown,blue.png,incongruent,the logo is a logo that can be seen on a white background.,,neither
+brown_as_brown.png,brown,brown.png,incongruent,the logo is a logo for a company that will be available at the store.,,neither
+brown_as_gray.png,brown,gray.png,incongruent,the logo is a popular brand.,,neither
+brown_as_green.png,brown,green.png,incongruent,the logo is a logo for the company,,neither
+brown_as_orange.png,brown,orange.png,incongruent,the logo is a logo for the new owner.,,neither
+brown_as_pink.png,brown,pink.png,incongruent,the logo is a brand new brand.,,neither
+brown_as_purple.png,brown,purple.png,incongruent,the logo is shown on a white background.,,neither
+brown_as_red.png,brown,red.png,incongruent,the logo is a brand new brand.,,neither
+brown_as_yellow.png,brown,yellow.png,incongruent,the logo for the new store,,neither
+gray_as_black.png,gray,black.png,incongruent,the logo is a great example of how the logo is reflected in the glass.,,neither
+gray_as_blue.png,gray,blue.png,incongruent,the logo is a logo that will be used for the logo.,,neither
+gray_as_brown.png,gray,brown.png,incongruent,the logo is a logo for the company.,,neither
+gray_as_gray.png,gray,gray.png,incongruent,the logo is a popular choice for the brand's logo.,,neither
+gray_as_green.png,gray,green.png,incongruent,the logo is a logo that will be released.,,neither
+gray_as_orange.png,gray,orange.png,incongruent,the logo is a logo for the company.,,neither
+gray_as_pink.png,gray,pink.png,incongruent,the logo is a popular choice for the brand.,,neither
+gray_as_purple.png,gray,purple.png,incongruent,the logo is seen on a white background.,,neither
+gray_as_red.png,gray,red.png,incongruent,the logo is a symbol of gray.,gray,word
+gray_as_yellow.png,gray,yellow.png,incongruent,the logo for the new line,,neither
+green_as_black.png,green,black.png,incongruent,the logo is a logo that will be used to create a logo.,,neither
+green_as_blue.png,green,blue.png,incongruent,the logo is a logo that will be used to create a logo.,,neither
+green_as_brown.png,green,brown.png,incongruent,the logo is a symbol of green,green,word
+green_as_gray.png,green,gray.png,incongruent,the logo is a brand new brand that will be released.,,neither
+green_as_green.png,green,green.png,incongruent,the logo is a green symbol for the company,green,word
+green_as_orange.png,green,orange.png,incongruent,the logo is a logo that can be seen in the right side.,,neither
+green_as_pink.png,green,pink.png,incongruent,the logo is a logo that can be used for different purposes.,,neither
+green_as_purple.png,green,purple.png,incongruent,the logo is a logo that will be used for the company's new headquarters.,,neither
+green_as_red.png,green,red.png,incongruent,the logo is a symbol of green,green,word
+green_as_yellow.png,green,yellow.png,incongruent,the logo for the new store,,neither
+orange_as_black.png,orange,black.png,incongruent,the font is a font that is part of the logo.,,neither
+orange_as_blue.png,orange,blue.png,incongruent,the font is blue and the font is blue.,blue,neither
+orange_as_brown.png,orange,brown.png,incongruent,the logo for the new range,,neither
+orange_as_gray.png,orange,gray.png,incongruent,the logo is a popular form of the brand's logo.,,neither
+orange_as_green.png,orange,green.png,incongruent,the logo for the new store,,neither
+orange_as_orange.png,orange,orange.png,incongruent,the fonts of the logo,,neither
+orange_as_pink.png,orange,pink.png,incongruent,the logo for the new store,,neither
+orange_as_purple.png,orange,purple.png,incongruent,the logo is seen on a white background.,,neither
+orange_as_red.png,orange,red.png,incongruent,the logo for the new store,,neither
+orange_as_yellow.png,orange,yellow.png,incongruent,the font of the logo,,neither
+pink_as_black.png,pink,black.png,incongruent,pink in the sky,pink,word
+pink_as_blue.png,pink,blue.png,incongruent,the logo for the new store,,neither
+pink_as_brown.png,pink,brown.png,incongruent,the logo for the new logo,,neither
+pink_as_gray.png,pink,gray.png,incongruent,the logo for the new store,,neither
+pink_as_green.png,pink,green.png,incongruent,the logo for the new store,,neither
+pink_as_orange.png,pink,orange.png,incongruent,"the logo is a bold colour with a bold, bold, pink hue.",pink,word
+pink_as_pink.png,pink,pink.png,incongruent,the logo is a brand new brand.,,neither
+pink_as_purple.png,pink,purple.png,incongruent,the logo is a bold colour for the new logo,,neither
+pink_as_red.png,pink,red.png,incongruent,the logo for the new year,,neither
+pink_as_yellow.png,pink,yellow.png,incongruent,the logo for the new line,,neither
+purple_as_black.png,purple,black.png,incongruent,purple is the color of the logo,purple,word
+purple_as_blue.png,purple,blue.png,incongruent,the logo is purple and blue.,"blue,purple",word
+purple_as_brown.png,purple,brown.png,incongruent,the logo is purple with a hint of gold.,purple,word
+purple_as_gray.png,purple,gray.png,incongruent,the logo of the purple,purple,word
+purple_as_green.png,purple,green.png,incongruent,the logo for the new store,,neither
+purple_as_orange.png,purple,orange.png,incongruent,the logo is purple with a yellow outline.,"yellow,purple",word
+purple_as_pink.png,purple,pink.png,incongruent,purple text on a white background,purple,word
+purple_as_purple.png,purple,purple.png,incongruent,purple text on a white background,purple,word
+purple_as_red.png,purple,red.png,incongruent,the logo is a bold colour that can be used to create a bold font.,,neither
+purple_as_yellow.png,purple,yellow.png,incongruent,the logo for the new store,,neither
+red_as_black.png,red,black.png,incongruent,red in black,"red,black",word
+red_as_blue.png,red,blue.png,incongruent,the logo is a bold and bold color that can be used in any graphic design.,,neither
+red_as_brown.png,red,brown.png,incongruent,the logo is a red colour with a golden brown on it.,"red,brown",word
+red_as_gray.png,red,gray.png,incongruent,the red of the sea,red,word
+red_as_green.png,red,green.png,incongruent,the logo is a bold and bold combination of green.,green,neither
+red_as_orange.png,red,orange.png,incongruent,the logo is a bold and bold color.,,neither
+red_as_pink.png,red,pink.png,incongruent,red - - the best part of the world,red,word
+red_as_purple.png,red,purple.png,incongruent,"the logo is a bold colour that can be used for a bold, bold look.",,neither
+red_as_red.png,red,red.png,incongruent,the logo is a symbol of red.,red,word
+red_as_yellow.png,red,yellow.png,incongruent,the logo of the new year,,neither
+yellow_as_black.png,yellow,black.png,incongruent,yellow in black,"yellow,black",word
+yellow_as_blue.png,yellow,blue.png,incongruent,the text is blue,blue,neither
+yellow_as_brown.png,yellow,brown.png,incongruent,the yellow on the white background,yellow,word
+yellow_as_gray.png,yellow,gray.png,incongruent,yellow : the yellow and white of the logo,yellow,word
+yellow_as_green.png,yellow,green.png,incongruent,the logo of the logo,,neither
+yellow_as_orange.png,yellow,orange.png,incongruent,the yellow on the white background,yellow,word
+yellow_as_pink.png,yellow,pink.png,incongruent,the logo for the new year,,neither
+yellow_as_purple.png,yellow,purple.png,incongruent,the logo is a yellow color with the word,yellow,word
+yellow_as_red.png,yellow,red.png,incongruent,the logo on a white background,,neither
+yellow_as_yellow.png,yellow,yellow.png,incongruent,yellow text on a white background,yellow,word
